@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.navbar img {
+    height: 35px;
+    margin-left: 5px;
+}
+
+.navbar ul {
+    overflow: auto;
+    margin-left: auto;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 11px 10px;
+
+}
+
+.navbar li a {
+    padding: 8px;
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar button {
+    background-color: blueviolet;
+    color: orange;
+    border: 0;
+    font-size: 1em;
+}
+
+.navbar li ion-icon {
+    color: orange;
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+.main {
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+    display: block;
+}
+
+.form-box {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+    background-color: orange;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 275px;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    pointer-events: none;
+    transition: top 0.3 ease;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: black;
+    top: 20px;
+}
+
+input:focus~label,
+input:focus~label {
+    top: -5px;
+}
+
+.forget {
+    margin: 15px 0;
+    font-size: 0.9em;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space {
+    width: 10px;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a {
+    color: black;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+
+.main button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.register {
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    margin: 5px 0 10px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.byjus {
+    text-align: center;
+    padding: 40px 0;
+    color: black;
+}
+
+.byjus h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.byjus p {
+    font-size: 1.2em;
+}
+
+.learn {
+
+    display: flex;
+    justify-content: left;
+    margin: 50px 0;
+}
+
+.learns {
+    display: flex;
+    justify-content: right;
+    margin: 50px 0;
+    margin-top: -455px;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.prep {
+    display: flex;
+    justify-content: left;
+    margin: 50px 0;
+}
+
+.preps {
+    display: flex;
+    justify-content: right;
+    margin: 50px 0;
+    margin-top: -345px;
+}
+
+.learn .card,
+.preps .crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.learn .card,
+.prep .crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.explore button {
+    border: 0px;
+    height: 30px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: .2cm;
+    background-color: orange;
+    background-size: cover;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.ad {
+    text-align: center;
+    margin-top: -.5cm;
+    margin-bottom: .5cm;
+}
+
+.learner {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: .5cm;
+}
+
+.learn.card img {
+    width: 55%;
+}
+
+.learner {
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    font-size: 34;
+    padding: 33px;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.nums p {
+    text-align: center;
+  }
+  
+.parents {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.line{
+    text-align: center;
+    margin-top: .5cm;
+    margin-bottom: .3cm;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+    padding-left: .5cm;
+    padding-top: .5cm;
+    padding-bottom: .5cm;
+    
+}
+.footer .list ul li h2{
+    font-size: 1.5em;
+    color: orange;
+    
+  }
+  
